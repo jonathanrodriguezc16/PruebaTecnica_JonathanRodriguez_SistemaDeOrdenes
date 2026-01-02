@@ -67,6 +67,11 @@ function App() {
     setIsCartOpen(false);
   };
 
+  const handleRedirectToProductCreation = () => {
+    setAdminInitialTab("product");
+    setCurrentView("admin");
+  };
+
   const handleCheckout = async () => {
     if (!selectedClientId) return;
     const success = await checkout(selectedClientId);
@@ -128,7 +133,7 @@ function App() {
                   administración para registrar tu primer artículo.
                 </p>
                 <button
-                  onClick={() => setCurrentView("admin")}
+                  onClick={handleRedirectToProductCreation}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-blue-200 transition-all transform hover:scale-105 active:scale-95 flex items-center gap-2 group"
                 >
                   <Settings

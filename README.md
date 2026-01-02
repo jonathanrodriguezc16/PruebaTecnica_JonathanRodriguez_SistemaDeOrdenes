@@ -84,7 +84,7 @@ src/
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone <https://github.com/jonathanrodriguezc16/PruebaTecnica_JonathanRodriguez_SistemaDeOrdenes.git>
+    git clone https://github.com/jonathanrodriguezc16/PruebaTecnica_JonathanRodriguez_SistemaDeOrdenes.git
     cd PruebaTecnica_JonathanRodriguez_SistemaDeOrdenes
     ```
 

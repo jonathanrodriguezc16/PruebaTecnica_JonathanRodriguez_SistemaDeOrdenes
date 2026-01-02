@@ -10,15 +10,15 @@ El sistema permite gestionar el ciclo de vida completo de una venta: desde la ad
 
 ### implementacion de Requerimientos
 
-|       Requerimiento        | Implementación                                                      |
-| :------------------------: | :------------------------------------------------------------------ |
-|    **Arquitectura OOP**    | Uso estricto de Clases, Interfaces e Inyección de Dependencias.     |
-|  **Separación Lógica/UI**  | La lógica vive en la capa `Core`, React solo renderiza.             |
-| **Inventario Tiempo Real** | Patrón Observer y Pub/Sub para actualizar la UI sin recargar.       |
-|      **Persistencia**      | **IndexedDB** para datos críticos y LocalStorage para logs.         |
-|     **Notificaciones**     | Sistema de alertas (`inventory:low`, `inventory:out`) persistentes. |
-|        **No "any"**        | Tipado estricto en TypeScript.                                      |
-
+|            Requerimiento            | Implementación                                                      |
+| :---------------------------------: | :------------------------------------------------------------------ |
+|        **Arquitectura OOP**         | Uso estricto de Clases, Interfaces e Inyección de Dependencias.     |
+|      **Separación Lógica/UI**       | La lógica vive en la capa `Core`, React solo renderiza.             |
+|     **Inventario Tiempo Real**      | Patrón Observer y Pub/Sub para actualizar la UI sin recargar.       |
+|          **Persistencia**           | **IndexedDB** para datos críticos y LocalStorage para logs.         |
+|         **Notificaciones**          | Sistema de alertas (`inventory:low`, `inventory:out`) persistentes. |
+|            **No "any"**             | Tipado estricto en TypeScript.                                      |
+| todos los archivos estan comentados |
 ---
 
 ## Arquitectura y Diseño

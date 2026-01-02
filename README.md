@@ -19,6 +19,7 @@ El sistema permite gestionar el ciclo de vida completo de una venta: desde la ad
 |         **Notificaciones**          | Sistema de alertas (`inventory:low`, `inventory:out`) persistentes. |
 |            **No "any"**             | Tipado estricto en TypeScript.                                      |
 | todos los archivos estan comentados |
+
 ---
 
 ## Arquitectura y Diseño
